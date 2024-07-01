@@ -9,7 +9,7 @@ from scipy.signal import butter, filtfilt
 
 # Load your dataset
 # Replace 'your_dataset.txt' with the actual path or filename of your text file
-dataset = pd.read_csv('C:/Users/kavya/OneDrive/Desktop/EMG_data_for_gestures-master/04/2_raw_data_18-03_24.04.16.txt', delimiter='\t')
+dataset = pd.read_csv('C:/Users/Riya/OneDrive/Desktop/EMG_data_for_gestures-master/04/2_raw_data_18-03_24.04.16.txt', delimiter='\t')
 
 # Define a bandpass filter function
 def butter_bandpass_filter(data, lowcut, highcut, fs, order=4, min_padlen=3):
